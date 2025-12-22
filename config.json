@@ -1,0 +1,14 @@
+{
+    "modules-left": [
+        "custom/weather",
+        // ... другие модули
+    ],
+    "custom/weather": {
+        "format": "{}",
+        "return-type": "json",
+        "interval": 300,  // Обновлять каждые 5 минут
+        "exec": "/path/to/your/openweather.py",
+        "on-click": "xdg-open https://openweathermap.org/find?q=your_city",
+        "tooltip": true
+    }
+}
