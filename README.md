@@ -235,8 +235,7 @@ python ~/.config/waybar/scripts/weather.py | jq .
 
 ## 📝 Лицензия
 
-MIT License. См. [LICENSE](LICENSE) для деталей.
-
+MIT License.
 ## 🤝 Вклад
 
 1. Форкните репозиторий
