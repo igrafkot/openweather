@@ -69,7 +69,7 @@ appid = "ваш_api_ключ"    # Ваш API ключ
         "format": "{}",
         "return-type": "json",
         "interval": 300,  // Обновлять каждые 5 минут
-        "exec": "/path/to/your/openweather.py",
+        "exec": "/path/to/your/weather.py",
         "tooltip": true
     }
 }
